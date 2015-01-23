@@ -1,11 +1,8 @@
 package org.jbake.app;
 
-import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.record.impl.ODocument;
-import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
 
 import org.apache.commons.configuration.CompositeConfiguration;
-import org.jbake.app.ConfigUtil.Keys;
 import org.jbake.model.DocumentStatus;
 import org.jbake.model.DocumentTypes;
 import org.slf4j.Logger;

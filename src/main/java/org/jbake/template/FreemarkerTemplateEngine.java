@@ -1,7 +1,6 @@
 package org.jbake.template;
 
 import com.orientechnologies.orient.core.record.impl.ODocument;
-import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
 
 import freemarker.template.Configuration;
 import freemarker.template.DefaultObjectWrapper;

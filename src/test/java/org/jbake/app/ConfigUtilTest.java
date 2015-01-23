@@ -2,7 +2,7 @@ package org.jbake.app;
 
 import java.io.File;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 import org.apache.commons.configuration.CompositeConfiguration;
 import org.jbake.app.ConfigUtil.Keys;

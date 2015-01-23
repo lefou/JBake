@@ -1,7 +1,5 @@
 package org.jbake.app;
 
-import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
-
 import org.apache.commons.configuration.CompositeConfiguration;
 import org.jbake.app.ConfigUtil.Keys;
 import org.jbake.template.DelegatingTemplateEngine;
@@ -13,7 +11,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;

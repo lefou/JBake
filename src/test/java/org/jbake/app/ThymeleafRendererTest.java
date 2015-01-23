@@ -2,8 +2,6 @@ package org.jbake.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
-
 import org.apache.commons.configuration.CompositeConfiguration;
 import org.apache.commons.io.FileUtils;
 import org.jbake.app.ConfigUtil.Keys;
@@ -21,7 +19,6 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Scanner;
 
 public class ThymeleafRendererTest {
 
