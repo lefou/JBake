@@ -19,6 +19,8 @@ dependencies {
     // cli specific dependencies
     compile "org.eclipse.jetty:jetty-server:$jettyServerVersion"
     compile "args4j:args4j:$args4jVersion"
+    
+    testCompile "de.tototec:de.tobiasroeser.lambdatest:0.4.0"
 }
 
 processResources {
